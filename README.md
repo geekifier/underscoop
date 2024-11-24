@@ -5,6 +5,17 @@
 [![Tests](https://github.com/geekifier/underscoop/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/geekifier/underscoop/actions/workflows/excavator.yml/badge.svg)](https://github.com/geekifier/underscoop/actions/workflows/excavator.yml)
 
 
-Useful apps that do not make the cut to be included in the ScoopExtras bucket.
+A [Scoop](https://scoop.sh/) bucket containing apps that do not _currently_ make the cut to be included in the ScoopExtras bucket.
 
 Use at your own risk, there is no warranty or support provided whatsoever.
+
+# Usage
+
+```posh
+scoop bucket add underscoop https://github.com/geekifier/underscoop.git
+scoop install underscoop/app_name
+```
+
+# Applications
+
+[cmdtab](https://github.com/stianhoiland/cmdtab): Fast and lightweigth macOS-style Alt-Tab switcher replacement for Windows. Allows toggling between applications and application windows.
