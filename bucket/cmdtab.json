@@ -38,7 +38,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/stianhoiland/cmdtab/releases/download/${version}/cmdtab-v${version}-win-x86_64.zip"
+                "url": "https://github.com/stianhoiland/cmdtab/releases/download/v$version/cmdtab-v$version-win-x86_64.zip"
             }
         }
     }
