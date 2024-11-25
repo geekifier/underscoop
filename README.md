@@ -18,4 +18,4 @@ scoop install underscoop/app_name
 
 # Applications
 
-[cmdtab](https://github.com/stianhoiland/cmdtab): Fast and lightweigth macOS-style Alt-Tab switcher replacement for Windows. Allows toggling between applications and application windows.
+[cmdtab](https://github.com/stianhoiland/cmdtab): Fast and lightweight macOS-style Alt-Tab switcher replacement for Windows. Allows toggling between applications and application windows.
