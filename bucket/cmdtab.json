@@ -32,7 +32,7 @@
     "checkver": {
         "url": "https://api.github.com/repos/stianhoiland/cmdtab/releases",
         "jsonpath": "$..tag_name",
-        "regex": "v(\\d+\\.\\d+)",
+        "regex": "v(\\d+\\.\\d+\\.*\\d*)",
         "replace": "${1}"
     },
     "autoupdate": {
