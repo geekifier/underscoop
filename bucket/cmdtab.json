@@ -23,9 +23,9 @@
         "script": [
             "$regPath = \"HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\"",
             "if ( Test-Path -Path \"${regPath}\" ){",
-            "Remove-ItemProperty -Path \"${regPath}\" -Name 'cmdtab'-ErrorAction Stop",
+            "Remove-ItemProperty -Path \"${regPath}\" -Name 'cmdtab'-ErrorAction Continue",
             "if ($?) { \"Startup entry removed successfully\" | Out-Host",
-            "} else { \"Failed to remove startup entry\" | Out-Host}",
+            "} else { \"Startup entry does not exist or removal failed.\" | Out-Host}",
             "}"
         ]
     },
